@@ -1,0 +1,63 @@
+/* Mengatur tampilan layar utama */
+tubuh {
+    Jenis huruf: Arial, sans-serif;
+    warna latar belakang: #e2e8f0;
+    tampilan: fleksibel;
+    justify-content: center;
+    sejajarkan item: tengah;
+    tinggi: 100vh; /* Membuat konten berada tepat di tengah layar */
+    margin: 0;
+}
+
+/* Mengatur kotak profil (kartu) */
+.kartu {
+    warna latar belakang: putih;
+    padding: 30px;
+    radius batas: 15 piksel; /* Membuat ujung kotak melengkung */
+    bayangan kotak: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberi efek bayangan */
+    perataan teks: tengah;
+    lebar maksimum: 350px;
+}
+
+/* Mengatur foto profil agar menjadi bulat */
+#foto-profil {
+    lebar: 150px;
+    tinggi: 150px;
+    radius perbatasan: 50%; /*Efek bulat */
+    kesesuaian objek: sampul;
+    batas: 3 piksel padat #3b82f6; /* Garis pinggir foto */
+}
+
+h1 {
+    warna: #1e293b;
+    margin-bottom: 5px;
+}
+
+.deskripsi {
+    warna: #64748b;
+    ukuran font: 15px;
+}
+
+/* Mengatur daftar hobi agar rata kiri */
+ul {
+    perataan teks: kiri;
+    warna: #334155;
+}
+
+/* Mempercantik tombol */
+tombol {
+    warna latar belakang: #3b82f6;
+    warna: putih;
+    batas: tidak ada;
+    padding: 10px 20px;
+    radius batas: 8px;
+    ukuran font: 16px;
+    kursor: penunjuk;
+    margin-atas: 15px;
+    transisi: 0,3 detik; /* Efek transisi halus saat disentuh mouse */
+}
+
+/* Efek saat tombol disentuh mouse (hover) */
+tombol:arahkan kursor {
+    warna latar belakang: #2563eb;
+  }
